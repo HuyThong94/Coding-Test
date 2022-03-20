@@ -61,9 +61,9 @@ public class BookOnTape extends Thing {
     
     void inputBookOnTape(){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Nhap 1 book on tape moi!");
+        System.out.println("Enter New Book On Tape!");
         System.out.println("-----------------");
-        System.out.println("Enter Name book on tape: ");
+        System.out.println("Enter Name Book On Tape: ");
         nameBookOnTape = sc.nextLine();
         System.out.println("Enter Year Release: ");
         yearRelease = sc.nextInt();

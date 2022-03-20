@@ -27,7 +27,7 @@ public class Main {
 			  "1.	Enter info.\n"
 			+ "2.	List export.\n"
 			+ "3.	Search by serial number.\n"
-			+ "0.   Thoát khỏi chương trình");
+			+ "0.   Exit");
 			choose = sc.nextInt();
 			sc.nextLine();
 			

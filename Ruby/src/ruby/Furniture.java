@@ -61,9 +61,9 @@ public class Furniture extends Thing {
 
     void inputFurniture(){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Nhap 1 furniture moi!");
+        System.out.println("Enter New Furniture!");
         System.out.println("-----------------");
-        System.out.println("Enter Name furniture: ");
+        System.out.println("Enter Name fFurniture: ");
         nameFurniture = sc.nextLine();
         System.out.println("Enter Year Release: ");
         yearRelease = sc.nextInt();

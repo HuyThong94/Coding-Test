@@ -62,7 +62,7 @@ public class Video extends Thing {
    
     void inputVideo(){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Nhap 1 video moi!");
+        System.out.println("Enter New Video!");
         System.out.println("-----------------");
         System.out.println("Enter Name Video: ");
         nameVideo = sc.nextLine();
